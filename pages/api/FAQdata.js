@@ -22,7 +22,7 @@ export const accordionData = [
     {
         id: 5,
         question: 'By what time will the result come?',
-        answer: 'The results will be declared in the first week of June. '
+        answer: 'The results will be declared in the second week of August. '
     },
     {
         id: 6,
@@ -53,5 +53,52 @@ export const accordionData = [
         id: 11,
         question: 'What is the criterion for selection as a participant?',
         answer: 'This program is for beginners to get started with open source. The only criterion for selection are your dedication and enthusiasm to contribute to open source. '
+    },
+    {
+        id: 12,
+        question: 'Is GSSoC exclusively for girls or can boys participate as well?',
+        answer: 'GirlScript aims to support anyone new to the development field and promotes inclusivity. GSSoC is open for all. Everyone is welcome to participate and contribute to the open-source community and our initiative.'
+    },
+    {
+        id: 13,
+        question: 'Want to learn GitHub? Start here!',
+        answer: `If you want to learn GitHub independently, you can start by referring to the official documentation available at: https://guides.github.com/introduction/flow/. Additionally, there are step-by-step tutorials available that provide a comprehensive understanding of how GitHub works.`
+    },
+    {
+        id: 14,
+        question: 'What is the role of a mentor and how do they assist?',
+        answer: `A mentor is an experienced individual who helps you navigate and solve any challenges you encounter during your contribution journey in GSSoC. 
+        They provide guidance, support, and expertise to ensure you have a fulfilling learning experience.`
+    },
+    {
+        id: 15,
+        question: 'Can I contribute to multiple projects?',
+        answer: `Yes, you can contribute to multiple projects. However, we recommend that you focus on one project at a time to ensure you have a fulfilling learning experience.`
+    },
+    {
+        id: 16,
+        question: 'Are projects assigned to us or can we freely choose?',
+        answer: `You can freely choose the project you want to contribute to here - https://gssoc.girlscript.tech/project.`
+    },
+    {
+        id: 17,
+        question: `Where can I find projects eligible for GSSoC'23?`,
+        answer: `You can find the list of projects eligible for GSSoC'23 here - https://gssoc.girlscript.tech/project.`
+    },
+    {
+        id: 18,
+        question: `What are Discord roles?`,
+        answer: `Discord roles are assigned to participants based on their involvement in GSSoC. If you are a contributor, you are required to add "| Contributor" to your name, and similar guidelines apply to other roles. These roles help facilitate communication and collaboration within the community. The specific rules regarding Discord roles are clearly outlined in the Discord channel. If you have multiple roles, such as being both a contributor and a mentor, prioritize the role that holds greater significance for you.`
+    },
+    {
+        id: 19,
+        question: `What should I do after completing GSSoC?`,
+        answer: `Congratulations on successfully finishing GSSoC! Give yourself a pat on the back, as it is an incredible achievement. Be proud of yourself! 
+        Now, as you continue your open-source journey, you have various options. You can contribute to larger projects on GitHub, collaborate with other developers, or even create your own projects to address specific problems. The possibilities are endless, and this is just the beginning of your exciting journey in the world of open source.`
+    },
+    {
+        id: 20,
+        question: `Is your question not listed here?`,
+        answer: `If you cannot find the answer to your question in the FAQ section, please reach out to us via email, and we will respond as soon as possible. You can email us at gssoc@girlscript.tech. Additionally, you can also ask your question in the official GSSoC Discord channel, in the respective channel dedicated to discussions and queries.`
     }
 ];

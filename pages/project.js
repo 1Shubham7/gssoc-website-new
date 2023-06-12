@@ -27,7 +27,6 @@ const Project = () => {
     setData(await response.json());
   };
 
-
   const getProjects2021 = async () => {
     setData(projectData);
   };
@@ -44,7 +43,8 @@ const Project = () => {
     <>
       <Head>
         <title>
-          Projects | GirlScript Summer of Code 2023 | GirlScript Foundation India
+          Projects | GirlScript Summer of Code 2023 | GirlScript Foundation
+          India
         </title>
         <meta
           name="description"
@@ -121,6 +121,7 @@ const Project = () => {
         gap-x-10 gap-y-10 mt-9"
         >
           {data
+            .sort(() => 0.5 - Math.random())
             .filter((curElem, i) => {
               if (searchTerm == "") {
                 return curElem;

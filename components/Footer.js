@@ -14,6 +14,7 @@ const Footer = () => {
                 <img
                   className="cursor-pointer"
                   src="./GS_Foundation_logo_Black.svg"
+                  alt="logo"
                 />
               </Link>
             </div>
